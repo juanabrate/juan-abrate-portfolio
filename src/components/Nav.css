@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 47vh;
+    padding-right: 35%;
+    height: 4vh;
+    background-color: #363333;
+    color: white;
+}
