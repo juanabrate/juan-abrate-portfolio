@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import Nav from './components/Nav';
-import Skills from './components/Skills'
+import Skills from './components/Skills';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Home/>
       <Nav/>
       <Skills/>
+      <Education/>
     </div>
   );
 }

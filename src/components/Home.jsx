@@ -8,6 +8,7 @@ export default function Home() {
                 <span className="l">H</span><span className="l">e</span><span className="l">l</span>
                 <span className="l">l</span><span className="l">o</span>, <span className="l">I'm </span>
                 <span className="juan">Juan Abrate</span>.
+                <br/>
                 I'm a full-stack web developer.
             </div>
             <div className="button">

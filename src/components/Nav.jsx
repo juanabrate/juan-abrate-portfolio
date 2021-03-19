@@ -10,7 +10,7 @@ export default function Nav () {
                     HOME
                 </span>
                 <span>
-                    SKILLS
+                    ABOUT
                 </span>
                 <span>
                     CV
