@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import Nav from './components/Nav';
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </header> */}
       <Home/>
       <Nav/>
+      <Skills/>
     </div>
   );
 }
