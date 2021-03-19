@@ -4,7 +4,7 @@ import './Nav.css';
 export default function Nav () {
     return (
         <>
-        <div style={{display:'flex', alignItems:'center', justifyContent: 'center', backgroundColor: '#363333'}}>
+        <div style={{display:'flex', alignItems:'center', justifyContent: 'center', backgroundColor: '#282828'}}>
             <div className="nav">
                 <span>
                     HOME

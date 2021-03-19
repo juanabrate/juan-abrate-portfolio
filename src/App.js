@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Nav from './components/Nav';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Reach from './components/Reach';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Nav/>
       <Skills/>
       <Education/>
+      <Reach/>
     </div>
   );
 }

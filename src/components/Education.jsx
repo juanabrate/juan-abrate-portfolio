@@ -17,7 +17,7 @@ export default function Education () {
                 <div className="henry-content">
 
                     <h2>Henry</h2>                
-                    <h3>Full Stack Web Developer</h3>                
+                    <h3>Full Stack Web Development</h3>                
                     <h4>August 2020 - December 2020</h4>
 
                     <ul className="list">
