@@ -22,9 +22,5 @@ export default function Nav () {
         </div>
         <div style={{display: 'flex', flexDirection:'row', backgroundColor:'cyan', height:'2px', width:'100%'}}></div>
         </>
-        
-        
-
     )
-    
 }

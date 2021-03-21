@@ -7,7 +7,8 @@
     text-align: center;
     min-height: 100vh;
     /* background-image: url('./wp2856135.gif'); */
-    background-image: url(https://wallpapercave.com/wp/wp2856135.gif);
+    /* background-image: url(https://wallpapercave.com/wp/wp2856135.gif); */
+    background-color: #181818;
 }
 
 .text {
@@ -65,4 +66,8 @@
     font-size: 17px;
     color: white;
     
+}
+
+.particles {
+    position: absolute;
 }
