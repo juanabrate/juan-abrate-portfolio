@@ -88,10 +88,12 @@
     width: 100%;
 }
 
-@keyframes slideInFromLeft {
+/* @keyframes slideInFromLeft {
     0% { width: 0; }
     100% { width: 50%; }
-}
+} */
+
+
 
 .box3 {    
     background-color: rgba(100, 11, 88, 0.924);
@@ -118,11 +120,31 @@
 }
 
 .left {
+    animation: 2s ease-out 0s 1 slideInFromLeft;
     padding-right: 30%;
     padding-bottom: 1%;
 }
 
 .right {
+    animation: 2s ease-out 0s 1 slideInFromRight;
     padding-left: 30%;
     padding-bottom: 1%;
 }
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-500%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(500%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
