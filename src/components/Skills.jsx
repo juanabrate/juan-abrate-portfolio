@@ -17,7 +17,37 @@ export default function Skills () {
                     
                 </div>
 
-                <div className="skills-box">
+                <div className="skills-box2">
+                    <div className='left'>
+                        Javascript
+                    </div>
+                    <div className='right'>
+                        React
+                    </div>
+                    <div className='left'>
+                        Redux
+                    </div>
+                    <div className='right'>
+                        CSS
+                    </div>
+                    <div className='left'>
+                        HTML
+                    </div>
+                    <div className='right'>
+                        Express
+                    </div>
+                    <div className='left'>
+                        Postgres
+                    </div>
+                    <div className='right'>
+                        Sequelize
+                    </div>
+                    <div className='left'>
+                        GraphQL
+                    </div>
+                </div>
+
+                {/* <div className="skills-box">
 
                     <div className="skill">
                         <div className="box1">
@@ -146,7 +176,7 @@ export default function Skills () {
                     </div>
                     
 
-                </div>
+                </div> */}
 
 
             </div>
