@@ -32,48 +32,53 @@ export default function Skills () {
 
                 <div className="skills-box2">
                     <div className='left'>
-                        <div className="js">
-                            <img src={JSLogo} className="js-logo"/>                             
-                            Javascript                                      
+                    <div className='react'>                        
+                            <img src={Reactlogo} className="App-logo" alt="logo" />
+                            {/* React */}
                         </div>
+                        
                         <div className='redux'>
                             <img src={ReduxLogo} className='redux-logo'/>
-                            Redux
+                            {/* Redux */}
                         </div>
-                        <div className='html'>
-                            <img src={HtmlLogo} className='html-logo'/>
-                            HTML
+                        <div className='css'>
+                            <img src={CssLogo} className='css-logo'/>
+                            {/* CSS */}
                         </div>
                         <div className='postgres'>
                             <img src={PostgresLogo} className='postgres-logo'/>
-                            PostgreSQL
+                            {/* PostgreSQL */}
                         </div>
                         
-                        <div className='graph'>
-                            <img src={GraphLogo} className='graph-logo'/>
-                            graphQL
-                        </div>
+                        
                     </div>
                     <div className='right'>
-                        <div className='react'>                        
-                            <img src={Reactlogo} className="App-logo" alt="logo" />
-                            React
+                        
+                        <div className="js">
+                            <img src={JSLogo} className="js-logo"/>                             
+                            {/* Javascript                                       */}
                         </div>
                         {/* <div className='css'>
                             CSS
                         </div> */}
+                        <div className='nodeJs'>
+                            <img src={NodeJs} className='nodeJs-logo'/>
+                            {/* NodeJS */}
+                        </div>
+                        
+                        <div className='sequelize'>
+                            <img src={SequelizeLogo} className='sequelize-logo'/> 
+                            {/* SequelizeORM */}
+                        </div>
+                        <div className='graph'>
+                            <img src={GraphLogo} className='graph-logo'/>
+                            
+                        </div>
                         {/* <div className='express'>
                             <img src={ExpressLogo} className='express-logo'/>
                             Express
                         </div> */}
-                        <div className='sequelize'>
-                            <img src={SequelizeLogo} className='sequelize-logo'/> 
-                            Sequelize
-                        </div>
-                        <div className='nodeJs'>
-                            <img src={NodeJs} className='nodeJs-logo'/>
-                            NodeJS
-                        </div>
+                        
 
                         
                     

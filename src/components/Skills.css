@@ -115,8 +115,8 @@
     /* border-style: solid; */
     font-size: 14px;
     color: white;
-    border-style: solid;
-    border-width: 1px;
+    /* border-style: solid;
+    border-width: 1px; */
 
 }
 
@@ -127,10 +127,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
-    border-style: solid;
-    border-width: 1px;
+    /* border-style: solid;
+    border-width: 1px; */
+    padding-bottom: 30%;
 }
 
 .right {
@@ -140,14 +141,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
-    border-width: 1px;
+    /* border-style: solid;
+    border-width: 1px; */
     height: 100%;
     justify-content: space-evenly;
+    padding-bottom: 12%;
 }
 
+.js {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100px;
+    max-width: 100px;
+    margin-bottom: -15px;
+}
 .js-logo {
-    max-height: 50%;
+    max-height: 80%;
 }
 
 .html-logo {
@@ -163,26 +174,19 @@
     max-width: 60px;
 }
 
-.js {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 60px;
-    max-width: 60px;
-}
+
 
 .sequelize {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 .sequelize-logo {
-    max-height: 100%;
+    max-height: 90%;
 }
 
 
@@ -191,8 +195,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 .redux-logo {
@@ -204,25 +208,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 130px;
+    max-width: 130px;
 }
 
 .postgres-logo {
-    max-height: 80%;
+    max-height: 95%;
 }
 
 .graph {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 .graph-logo {
-    max-height: 60%;
-    max-width: 60%;
+    max-height:85%;
+    max-width: 85%;
 }
 
 
@@ -230,26 +234,32 @@
 .react {
     display: flex;
     flex-direction: column;
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 140px;
+    max-width: 140px;
 }
+
+.App-logo {
+    /* height: 5vmin; */
+    pointer-events: none;
+    max-height: 100%;
+  }
 
 .css {
     display: flex;
     flex-direction: column;
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 115px;
+    max-width: 105px;
 }
 
 .css-logo {
-    max-height: 80%;
+    max-height: 95%;
 }
 
 .express {
     display: flex;
     flex-direction: column;
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 .express-logo {
@@ -261,8 +271,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 130px;
+    max-width: 130px;
 }
 
 .nodeJs-logo {
@@ -271,11 +281,7 @@
 
 }
 
-.App-logo {
-    /* height: 5vmin; */
-    pointer-events: none;
-    max-height: 100%;
-  }
+
   
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
