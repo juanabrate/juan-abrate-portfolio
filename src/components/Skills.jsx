@@ -4,6 +4,13 @@ import JSLogo from './javascript-seeklogo.com.svg';
 import classNames from 'classnames';
 import Reactlogo from '../logo.svg';
 import ReduxLogo from './redux-logo-9CA6836C12-seeklogo.com.png'
+import HtmlLogo from './html-logo.png';
+import CssLogo from './css-logo.png';
+import ExpressLogo from './express-logo.png';
+import NodeJs from './node-js.png';
+import SequelizeLogo from './sequelize-logo.png';
+import PostgresLogo from './postgres-logo.png';
+import GraphLogo from './graph-logo.png';
 
 const js = classNames('left', 'js');
 
@@ -15,7 +22,7 @@ export default function Skills () {
             
                 <div className="about">
                     <span className="text-about">
-                    I'm a passionate software developer with experience of building Web applications with JavaScript / Reactjs / Nodejs among other technologies. I have a serious passion for UX/UI design, creating intuitive and dynamic user experiences. 
+                    I'm a passionate web developer with experience of building Web applications with JavaScript / Reactjs / Nodejs among other technologies. I have a serious passion for UX/UI design, creating intuitive and dynamic user experiences. 
                     <br/>
                     <br/>
                     <a style={{paddingLeft:'0.2%'}}>Contact me!</a>                  
@@ -24,37 +31,53 @@ export default function Skills () {
                 </div>  
 
                 <div className="skills-box2">
-                    <div className="left">
-                        <img src={JSLogo} className="s-logo" style={{maxWidth: '30%'}}/> 
+                    <div className='left'>
+                        <div className="js">
+                            <img src={JSLogo} className="js-logo"/>                             
+                            Javascript                                      
+                        </div>
+                        <div className='redux'>
+                            <img src={ReduxLogo} className='redux-logo'/>
+                            Redux
+                        </div>
+                        <div className='html'>
+                            <img src={HtmlLogo} className='html-logo'/>
+                            HTML
+                        </div>
+                        <div className='postgres'>
+                            <img src={PostgresLogo} className='postgres-logo'/>
+                            PostgreSQL
+                        </div>
                         
-                        Javascript                                      
-                    </div>
-                    <div className='right'>                        
-                        <img src={Reactlogo} className="App-logo" alt="logo" />
-                        React
-                    </div>
-                    <div className='left'>
-                        <img src={ReduxLogo} className="s-logo" />
-                        Redux
+                        <div className='graph'>
+                            <img src={GraphLogo} className='graph-logo'/>
+                            graphQL
+                        </div>
                     </div>
                     <div className='right'>
-                        CSS
-                    </div>
-                    <div className='left'>
-                        HTML
-                    </div>
-                    <div className='right'>
-                        Express
-                    </div>
-                    <div className='left'>
-                        Postgres
-                    </div>
-                    <div className='right'>
-                        Sequelize
-                    </div>
-                    <div className='left'>
-                        GraphQL
-                    </div>
+                        <div className='react'>                        
+                            <img src={Reactlogo} className="App-logo" alt="logo" />
+                            React
+                        </div>
+                        {/* <div className='css'>
+                            CSS
+                        </div> */}
+                        {/* <div className='express'>
+                            <img src={ExpressLogo} className='express-logo'/>
+                            Express
+                        </div> */}
+                        <div className='sequelize'>
+                            <img src={SequelizeLogo} className='sequelize-logo'/> 
+                            Sequelize
+                        </div>
+                        <div className='nodeJs'>
+                            <img src={NodeJs} className='nodeJs-logo'/>
+                            NodeJS
+                        </div>
+
+                        
+                    
+                    </div>                  
                 </div>
 
                 {/* <div className="skills-box">
