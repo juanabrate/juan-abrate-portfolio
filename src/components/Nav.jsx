@@ -6,16 +6,16 @@ export default function Nav () {
         <>
         <div style={{display:'flex', alignItems:'center', justifyContent: 'center', backgroundColor: '#282828'}}>
             <div className="nav">
-                <span>
+                <span className='buttons'>
                     HOME
                 </span>
-                <span>
+                <span className='buttons'>
                     ABOUT
-                </span>
-                <span>
+                </span >
+                <span className='buttons'>
                     CV
                 </span>
-                <span>
+                <span className='buttons'>
                     CONTACT ME!
                 </span>
             </div>            
