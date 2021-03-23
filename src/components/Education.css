@@ -1,5 +1,7 @@
 /* .wrapper {
-    background-color: #585858;
+    display: flex;
+    align-items:baseline ;
+    justify-content: center;
 } */
 
 .edu-wrapper {
@@ -9,8 +11,9 @@
     padding-left: 11%;
     padding-right: 11%;
     align-items: center;
-    margin-top: 7vh;
-    height: 50vh;    
+    /* margin-top: 6vh; */
+    /* height: 35vh;     */
+    margin: 5vh;
 }
 
 .henry-pic {

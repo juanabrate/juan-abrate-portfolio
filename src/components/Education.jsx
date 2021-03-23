@@ -5,7 +5,7 @@ import logo from './henry-logo.jfif';
 export default function Education () {
     return (
         <div className="wrapper">
-            <h1 style={{marginTop: '5%'}}>EDUCATION </h1>
+            {/* <h1 style={{marginTop: '2%'}}>Education </h1> */}
             <div className="edu-wrapper">
             
                 <div className="henry-pic">
@@ -17,8 +17,8 @@ export default function Education () {
                 <div className="henry-content">
 
                     <h2>Henry</h2>                
-                    <h3>Full Stack Web Development</h3>                
-                    <h4>August 2020 - December 2020</h4>
+                    <h3>Full Stack Web Developer</h3>                
+                    {/* <h4>August 2020 - December 2020</h4> */}
 
                     <ul className="list">
                         <li><span>HTML5 | CSS3 | JavaScript | Git</span></li>

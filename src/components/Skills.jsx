@@ -17,7 +17,7 @@ const js = classNames('left', 'js');
 export default function Skills () {
     return (
         <div className="skill-section">
-            <h1 style={{paddingTop: '5%', color: 'white', fontFamily: 'Ubuntu'}}>SKILLS</h1>
+            <h1 style={{paddingTop: '5%', color: 'white', fontFamily: 'Ubuntu', letterSpacing:'1px'}}>Skills</h1>
             <div className="skills-wrapper">
             
                 <div className="about">
