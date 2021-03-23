@@ -1,5 +1,11 @@
 import React from "react";
 import './Skills.css';
+import JSLogo from './javascript-seeklogo.com.svg';
+import classNames from 'classnames';
+import Reactlogo from '../logo.svg';
+import ReduxLogo from './redux-logo-9CA6836C12-seeklogo.com.png'
+
+const js = classNames('left', 'js');
 
 export default function Skills () {
     return (
@@ -15,16 +21,20 @@ export default function Skills () {
                     <a style={{paddingLeft:'0.2%'}}>Contact me!</a>                  
                     </span>
                     
-                </div>
+                </div>  
 
                 <div className="skills-box2">
-                    <div className='left'>
-                        Javascript
+                    <div className="left">
+                        <img src={JSLogo} className="s-logo" style={{maxWidth: '30%'}}/> 
+                        
+                        Javascript                                      
                     </div>
-                    <div className='right'>
+                    <div className='right'>                        
+                        <img src={Reactlogo} className="App-logo" alt="logo" />
                         React
                     </div>
                     <div className='left'>
+                        <img src={ReduxLogo} className="s-logo" />
                         Redux
                     </div>
                     <div className='right'>

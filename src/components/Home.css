@@ -95,11 +95,31 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* border-style: solid; */
 }
 
 .title-wrapper {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    /* background-color: white; */    
+    position: relative;
 }
+
+
+.mid {
+    position: absolute;
+    left: 5%;
+    /* margin-left: 40px; */
+    /* border-style: solid; */
+
+}
+
+.mid2 {
+    position: absolute;
+    right: 5%;
+    /* border-style: solid; */
+}
+

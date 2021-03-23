@@ -10,7 +10,7 @@ export default function Home() {
                 params={{
                     particles: {
                         number: {
-                            value: 40
+                            value: 85
                         }},
                     interactivity: {
                         events: {
@@ -55,28 +55,31 @@ export default function Home() {
                 }}/>
 
             <div className='title-wrapper'>
-                <Particles className='particles8' width='27vw' height='35vh' 
-                    params={{
-                        particles: {
-                            number: {
-                                value: 20
-                            }},
-                        interactivity: {
-                            events: {
-                                onHover: {
-                                    enable: true,
-                                    mode: 'attract'
-                                }                        
-                            },
-                            modes: {
-                                attract: {
-                                    speed: 2,
-                                    distance: 500,
-                                    duration: 2
+                <div className='mid'>
+                    <Particles width='27vw' height='35vh' 
+                        params={{
+                            particles: {
+                                number: {
+                                    value: 40
+                                }},
+                            interactivity: {
+                                events: {
+                                    onHover: {
+                                        enable: true,
+                                        mode: 'attract'
+                                    }                        
+                                },
+                                modes: {
+                                    attract: {
+                                        speed: 2,
+                                        distance: 500,
+                                        duration: 2
+                                    }
                                 }
                             }
-                        }
-                    }}/>
+                        }}/>
+                </div>
+                
                     <div className='title'>
                         <div className='text'>
                             <span className="l">Hello, I'm <span className="juan">Juan Abrate</span></span>.
@@ -89,11 +92,13 @@ export default function Home() {
                             </span>
                         </div>                
                     </div>
-                    <Particles className='particles8' width='27vw' height='35vh' 
+
+                <div className='mid2'>
+                    <Particles width='27vw' height='35vh' 
                     params={{
                         particles: {
                             number: {
-                                value: 20
+                                value: 40
                             }},
                         interactivity: {
                             events: {
@@ -111,13 +116,14 @@ export default function Home() {
                             }
                         }
                     }}/>
+                </div>
             </div>
 
             <Particles className='particles4' width='95vw' height='30vh' 
                 params={{
                     particles: {
                         number: {
-                            value: 40
+                            value: 85
                         }},
                     interactivity: {
                         events: {
