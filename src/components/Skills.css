@@ -281,6 +281,20 @@
 
 }
 
+.s-contact {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1%;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.s-contact:hover {
+    color: rgba(255, 0, 157, 0.753);
+    cursor: pointer;    
+}
+
 
   
   @media (prefers-reduced-motion: no-preference) {

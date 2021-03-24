@@ -24,7 +24,7 @@ export default function Nav () {
                 </Link>
                 <Link to="reach" smooth={true} duration={400}>
                     <span className='buttons'>
-                        CONTACT ME!
+                        CONTACT ME
                     </span> 
                 </Link>              
             </div>            

@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 export default function Final() {
     return (
         <div className='final' style={{backgroundColor:'#101010'}}>
-            <Particles width='100vw' height='100vh' 
+            <Particles width='99vw' height='100vh' 
                 params={{
                     particles: {
                         number: {

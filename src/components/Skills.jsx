@@ -1,5 +1,6 @@
 import React from "react";
 import './Skills.css';
+import {Link} from 'react-scroll';
 import JSLogo from './javascript-seeklogo.com.svg';
 import classNames from 'classnames';
 import Reactlogo from '../logo.svg';
@@ -25,7 +26,11 @@ export default function Skills () {
                     I'm a passionate web developer with experience of building Web applications with JavaScript / Reactjs / Nodejs among other technologies. I have a serious passion for UX/UI design, creating intuitive and dynamic user experiences. 
                     <br/>
                     <br/>
-                    <a style={{paddingLeft:'0.2%'}}>Contact me!</a>                  
+                    <Link to="reach" smooth={true} duration={400}>
+                        <div className='s-contact'>
+                            <span style={{paddingLeft:'0.2%'}}>Contact&nbsp;me!</span>
+                        </div>   
+                    </Link>              
                     </span>
                     
                 </div>  
