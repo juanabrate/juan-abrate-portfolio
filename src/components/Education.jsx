@@ -4,7 +4,7 @@ import logo from './henry-logo.jfif';
 
 export default function Education () {
     return (
-        <div className="wrapper">
+        <div className="wrapper" id='cv'>
             {/* <h1 style={{marginTop: '2%'}}>Education </h1> */}
             <div className="edu-wrapper">
             

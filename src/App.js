@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Reach from './components/Reach';
+import Final from './components/Final';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Skills/>
       <Education/>
       <Reach/>
+      <Final/>
     </div>
   );
 }

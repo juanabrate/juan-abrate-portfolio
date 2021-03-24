@@ -1,10 +1,11 @@
 import React from "react";
 import Particles from "react-particles-js";
 import './Home.css';
+import {Link} from 'react-scroll';
 
 export default function Home() {
     return (
-        <div className='home'>     
+        <div className='home' id='home'>     
 
                 <Particles className='particles' width='95vw' height='30vh' 
                 params={{
@@ -86,11 +87,18 @@ export default function Home() {
                             <br/>
                             I'm a full-stack web developer
                         </div>
-                        <div className="button">
-                            <span className="button-text">
-                                My Skills
-                            </span>
-                        </div>                
+                        
+                        
+                        <div className="button-text">
+                        <Link className="link1" to="nav" smooth={true} duration={400}>
+                            <span style={{display:'flex',textAlign:'center', textJustify: 'center', justifyContent:'center'}}>
+                                My Skills &nbsp; <span className="arrow">➤</span>
+                            </span>  
+                        </Link>                   
+                         </div>                        
+                        
+                        
+                                     
                     </div>
 
                 <div className='mid2'>
