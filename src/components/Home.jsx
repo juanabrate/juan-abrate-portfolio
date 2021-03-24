@@ -11,7 +11,7 @@ export default function Home() {
                 params={{
                     particles: {
                         number: {
-                            value: 85
+                            value: 70
                         }},
                     interactivity: {
                         events: {
@@ -61,7 +61,7 @@ export default function Home() {
                         params={{
                             particles: {
                                 number: {
-                                    value: 40
+                                    value: 25
                                 }},
                             interactivity: {
                                 events: {
@@ -106,7 +106,7 @@ export default function Home() {
                     params={{
                         particles: {
                             number: {
-                                value: 40
+                                value: 25
                             }},
                         interactivity: {
                             events: {
@@ -131,7 +131,7 @@ export default function Home() {
                 params={{
                     particles: {
                         number: {
-                            value: 85
+                            value: 70
                         }},
                     interactivity: {
                         events: {
