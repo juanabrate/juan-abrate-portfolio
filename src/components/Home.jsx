@@ -26,7 +26,7 @@ console.log(laptop, desktop, portrait, mobile)
                 params={{
                     particles: {
                         number: {
-                            value: desktop ? 70 : laptop ? 35 : portrait ? 30 : mobile ? 20 : null
+                            value: desktop ? 70 : laptop ? 35 : portrait ? 30 : mobile ? 15 : null
                         }},
                     interactivity: {
                         events: {
@@ -71,6 +71,7 @@ console.log(laptop, desktop, portrait, mobile)
                 }}/>
 
             <div className='title-wrapper'>
+                
                 <div className='mid'>
                     <Particles width='27vw' height='35vh' 
                         params={{
@@ -116,6 +117,7 @@ console.log(laptop, desktop, portrait, mobile)
                                      
                     </div>
 
+
                 <div className='mid2'>
                     <Particles width='27vw' height='35vh' 
                     params={{
@@ -140,13 +142,14 @@ console.log(laptop, desktop, portrait, mobile)
                         }
                     }}/>
                 </div>
+
             </div>
 
             <Particles className='particles4' width='95vw' height='30vh' 
                 params={{
                     particles: {
                         number: {
-                            value: desktop ? 70 : laptop ? 35 : portrait ? 30 : mobile ? 20 : null
+                            value: desktop ? 70 : laptop ? 35 : portrait ? 30 : mobile ? 15 : null
                         }},
                     interactivity: {
                         events: {

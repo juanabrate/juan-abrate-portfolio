@@ -132,8 +132,63 @@
     
 }
 
+/* desktop */
 @media (min-width: 1280px) and (max-width: 1920px) {
     .text {
-        font-size: 3vh;
+        font-size: 4vh;
+    }
+    .button-text {
+        font-size: 10px;
+    }
+    
+}
+
+/* laptop mid */
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .text {
+        font-size: 4vh;
+        width: 60vw;
+    }
+    .button-text {
+        font-size: 17px;
+    }
+}
+
+/* laptop */
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .text {
+        font-size: 3.5vh;
+        width: 60vw;
+    }
+    .button-text {
+        font-size: 16px;
+    }
+}
+
+/* landscape */
+@media (min-width: 768px) and (max-width: 1279px) {
+    .text {
+        font-size: 2vh;
+        width: 60vw;
+    }
+    .button-text {
+        font-size: 14px;
+    }
+}
+
+/* portrait */
+@media (min-width: 320px) and (max-width: 768px) {
+    .text {
+        font-size: 20px;
+        width: 90vw;
+    }
+    .button-text {
+        font-size: 13px;
+    }
+    .mid {
+        display: none;
+    }
+    .mid2 {
+        display: none;
     }
 }
