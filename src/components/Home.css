@@ -15,7 +15,7 @@
     width: 40vw;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 32px;
+    font-size: 4.5vh;
     font-weight: lighter;
     display: inline-block;
     letter-spacing: 1px;
@@ -32,7 +32,7 @@
 .juan {
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 34px;
+    font-size: 4.9vh;
     font-weight: bold;
     color: rgba(255, 0, 157, 0.753);    
 }

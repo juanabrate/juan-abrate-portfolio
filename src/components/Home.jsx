@@ -4,14 +4,29 @@ import './Home.css';
 import {Link} from 'react-scroll';
 
 export default function Home() {
+    
+    const desktopQ = window.matchMedia('(min-width: 1920px)');
+    const laptopQ = window.matchMedia('(min-width: 1280px) and (max-width: 1920px)');
+    const portraitQ = window.matchMedia('(min-width: 768px) and (max-width: 1290px)');
+    const mobileQ = window.matchMedia('(min-width: 320px) and (max-width: 768px)');
+     
+    let desktop = desktopQ.matches;
+    let laptop = laptopQ.matches;
+    let portrait = portraitQ.matches;
+    let mobile = mobileQ.matches;
+
+    
+// console.log(laptop, desktop, portrait, mobile)
+    
+
     return (
         <div className='home' id='home'>     
-
+            
                 <Particles className='particles' width='95vw' height='30vh' 
                 params={{
                     particles: {
                         number: {
-                            value: 70
+                            value: desktop ? 70 : laptop ? 35 : portrait ? 30 : mobile ? 20 : null
                         }},
                     interactivity: {
                         events: {
@@ -61,7 +76,7 @@ export default function Home() {
                         params={{
                             particles: {
                                 number: {
-                                    value: 25
+                                    value: desktop ? 25 : laptop ? 10 : portrait ? 15 : mobile ? 10 : null 
                                 }},
                             interactivity: {
                                 events: {
@@ -106,7 +121,7 @@ export default function Home() {
                     params={{
                         particles: {
                             number: {
-                                value: 25
+                                value: desktop ? 25 : laptop ? 10 : portrait ? 15 : mobile ? 10 : null
                             }},
                         interactivity: {
                             events: {
@@ -131,7 +146,7 @@ export default function Home() {
                 params={{
                     particles: {
                         number: {
-                            value: 70
+                            value: desktop ? 70 : laptop ? 35 : portrait ? 30 : mobile ? 20 : null
                         }},
                     interactivity: {
                         events: {

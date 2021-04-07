@@ -12,7 +12,7 @@
     padding-right: 5%;
     align-items: center;
     margin-top: 10vh;
-    height: 50vh;
+    height: 65vh;
     /* border-style: solid; */
     border-width: 1px;
 }
@@ -69,7 +69,7 @@
 
 .text-about {
     text-align: left;
-    width: 42vw;
+    width: 45vw;
     font-family: Ubuntu;
     font-size: 20px;
     letter-spacing: 0.9px;
@@ -328,4 +328,8 @@
     100% {
       transform: translateX(0);
     }
+  } */
+
+  /* @media (min-width: 1280px) and (max-width: 1920px) {
+      .skills-wrapper {height: 60vh;}
   } */
