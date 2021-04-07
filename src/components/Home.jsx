@@ -7,7 +7,7 @@ export default function Home() {
     
     const desktopQ = window.matchMedia('(min-width: 1920px)');
     const laptopQ = window.matchMedia('(min-width: 1280px) and (max-width: 1920px)');
-    const portraitQ = window.matchMedia('(min-width: 768px) and (max-width: 1290px)');
+    const portraitQ = window.matchMedia('(min-width: 768px) and (max-width: 1279px)');
     const mobileQ = window.matchMedia('(min-width: 320px) and (max-width: 768px)');
      
     let desktop = desktopQ.matches;
@@ -16,7 +16,7 @@ export default function Home() {
     let mobile = mobileQ.matches;
 
     
-// console.log(laptop, desktop, portrait, mobile)
+console.log(laptop, desktop, portrait, mobile)
     
 
     return (
