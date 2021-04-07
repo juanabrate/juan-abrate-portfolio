@@ -1,18 +1,15 @@
 import React from "react";
 import './Nav.css';
 import {Link} from 'react-scroll';
-import { useMediaQuery } from 'react-responsive'
+
 
 export default function Nav () {
-    const phone = useMediaQuery({
-        query: '(max-device-width: 768px)'
-      })
-    //   console.log(phone)
+   
     return (
         <>
         <div id='nav' style={{display:'flex', alignItems:'center', justifyContent: 'center', backgroundColor: '#282828'}}>
             <div className="nav">
-                {phone && <p>hola</p>}
+                
                 <Link to='home' smooth={true} duration={400}>
                     <span className='buttons'>
                         HOME
