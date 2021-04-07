@@ -165,7 +165,7 @@
 
 @media (min-width: 768px) and (max-width: 1279px) {
     .text {
-        font-size: 4vh;
+        font-size: 3vh;
         width: 90vw;
     }
     .button-text {

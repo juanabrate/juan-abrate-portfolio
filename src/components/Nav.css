@@ -38,3 +38,11 @@
         height: 5vh;
     }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+    .nav {
+        padding-right: 0%;
+        width: 70vw;
+        height: 5vh;
+        font-size: 12px;
+    }
+}

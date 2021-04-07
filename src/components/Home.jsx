@@ -5,12 +5,8 @@ import { Link } from 'react-scroll'
 
 export default function Home() {
   const desktopQ = window.matchMedia('(min-width: 1920px)')
-  const laptopQ = window.matchMedia(
-    '(min-width: 1280px) and (max-width: 1919px)',
-  )
-  const portraitQ = window.matchMedia(
-    '(min-width: 768px) and (max-width: 1279px)',
-  )
+  const laptopQ = window.matchMedia('(min-width: 1280px) and (max-width: 1919px)')
+  const portraitQ = window.matchMedia('(min-width: 768px) and (max-width: 1279px)')
   const mobileQ = window.matchMedia('(min-width: 320px) and (max-width: 767px)')
 
   let desktop = desktopQ.matches
@@ -18,8 +14,9 @@ export default function Home() {
   let portrait = portraitQ.matches
   let mobile = mobileQ.matches
 
-  console.log(desktop, laptop, portrait, mobile)
-  console.log(window.innerWidth)
+
+  // console.log(desktop, laptop, portrait, mobile)
+  // console.log(window.innerWidth)
 
   return (
     <div className="home" id="home">

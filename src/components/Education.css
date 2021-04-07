@@ -45,4 +45,15 @@
     font-size: 17px;
     letter-spacing: 1px;
 }
+@media (min-width: 414px) and (max-width: 767px) {
+    .list {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 413px) {
+    .list {
+        font-size: 9px;
+    }
+}
 

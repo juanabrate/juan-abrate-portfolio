@@ -15,12 +15,12 @@ import GraphLogo from './graph-logo.png'
 
 const js = classNames('left', 'js')
 
-export default function Skills() {
+export default function Skills({queries}) {
   return (
     <div className="skill-section" id="skills">
       <h1
         style={{
-          paddingTop: '3%',
+          paddingTop: queries.portrait ? '0%' : queries.mobile ? '0%' : '3%',
           color: 'white',
           fontFamily: 'Ubuntu',
           letterSpacing: '1px',
@@ -90,136 +90,7 @@ export default function Skills() {
           </div>
         </div>
 
-        {/* <div className="skills-box">
-
-                    <div className="skill">
-                        <div className="box1">
-                            <span>
-                                Javascript
-                            </span>
-                        </div>
-                            
-                        <div className="box3">
-                            <span style={{color:'rgba(100, 11, 88, 0.924)'}}>
-                                .
-                            </span>
-                        </div>  
-
-                        <span style={{color:'white', marginRight: '3%'}}>
-                                60%
-                            </span>               
-                    </div>
-
-                    <div className="skill">
-                        <div className="box1">
-                            <span>
-                                React
-                            </span>
-                        </div>
-                            
-                        <div className="box3">
-                            <span style={{color:'rgba(100, 11, 88, 0.924)'}}>
-                                .
-                            </span>
-                        </div>  
-
-                        <span style={{color:'white', marginRight: '3%'}}>
-                                60%
-                            </span>               
-                    </div>
-
-                    <div className="skill">
-                        <div className="box1">
-                            <span>
-                                CSS
-                            </span>
-                        </div>
-                            
-                        <div className="box3">
-                            <span style={{color:'rgba(100, 11, 88, 0.924)'}}>
-                                .
-                            </span>
-                        </div>  
-
-                        <span style={{color:'white', marginRight: '3%'}}>
-                                60%
-                            </span>               
-                    </div>
-
-                    <div className="skill">
-                        <div className="box1">
-                            <span>
-                                Express
-                            </span>
-                        </div>
-                            
-                        <div className="box3">
-                            <span style={{color:'rgba(100, 11, 88, 0.924)'}}>
-                                .
-                            </span>
-                        </div>  
-
-                        <span style={{color:'white', marginRight: '3%'}}>
-                                60%
-                            </span>               
-                    </div>
-
-                    <div className="skill">
-                        <div className="box1">
-                            <span>
-                                Postgres
-                            </span>
-                        </div>
-                            
-                        <div className="box3">
-                            <span style={{color:'rgba(100, 11, 88, 0.924)'}}>
-                                .
-                            </span>
-                        </div>  
-
-                        <span style={{color:'white', marginRight: '3%'}}>
-                                60%
-                            </span>               
-                    </div>
-
-                    <div className="skill">
-                        <div className="box1">
-                            <span>
-                                Sequelize
-                            </span>
-                        </div>
-                            
-                        <div className="box3">
-                            <span style={{color:'rgba(100, 11, 88, 0.924)'}}>
-                                .
-                            </span>
-                        </div>  
-
-                        <span style={{color:'white', marginRight: '3%'}}>
-                                60%
-                            </span>               
-                    </div>
-
-                    <div className="skill">
-                        <div className="box1">
-                            <span>
-                                GraphQL
-                            </span>
-                        </div>
-                            
-                        <div className="box3">
-                            <span style={{color:'rgba(100, 11, 88, 0.924)'}}>
-                                .
-                            </span>
-                        </div>  
-
-                        <span style={{color:'white', marginRight: '3%'}}>
-                                60%
-                            </span>               
-                    </div>
-                    
-
-                </div> */}
+       
       </div>
     </div>
   )
