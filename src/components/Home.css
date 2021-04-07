@@ -34,7 +34,7 @@
 .juan {
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 4.9vh;
+  
     font-weight: bold;
     color: rgba(255, 0, 157, 0.753);    
 }
@@ -132,3 +132,8 @@
     
 }
 
+@media (min-width: 1280px) and (max-width: 1920px) {
+    .text {
+        font-size: 3vh;
+    }
+}
