@@ -17,7 +17,7 @@
     width: 40vw;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 4.5vh;
+    font-size: 9vh;
     font-weight: lighter;
     display: inline-block;
     letter-spacing: 1px;
@@ -132,19 +132,17 @@
     
 }
 
-/* desktop */
-@media (min-width: 1280px) and (max-width: 1920px) {
+@media (max-width: 1920px) {
     .text {
-        font-size: 4vh;
+        font-size: 4.5vh;
     }
     .button-text {
-        font-size: 10px;
-    }
-    
+        font-size: 20px;
+    }    
 }
 
-/* laptop mid */
-@media (min-width: 1440px) and (max-width: 1920px) {
+
+@media (min-width: 1440px) and (max-width: 1919px) {
     .text {
         font-size: 4vh;
         width: 60vw;
@@ -154,8 +152,8 @@
     }
 }
 
-/* laptop */
-@media (min-width: 1280px) and (max-width: 1440px) {
+
+@media (min-width: 1280px) and (max-width: 1439px) {
     .text {
         font-size: 4vh;
         width: 70vw;
@@ -165,7 +163,6 @@
     }
 }
 
-/* portrait */
 @media (min-width: 768px) and (max-width: 1279px) {
     .text {
         font-size: 4vh;
@@ -182,18 +179,6 @@
     }
 }
 
-/* landscape */
-/* @media (orientation: landscape) {
-    .text {
-        font-size: 4vh;
-        width: 60vw;
-    }
-    .button-text {
-        font-size: 15px;
-    }    
-} */
-
-/* mobile */
 @media (min-width: 320px) and (max-width: 767px) {
     .text {
         font-size: 20px;

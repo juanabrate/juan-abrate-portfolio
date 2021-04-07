@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 42vh;
+    width: 20vw;
     padding-right: 40%;
     height: 5.5vh;
     background-color: #282828;
@@ -17,4 +17,24 @@
 .buttons:hover {
     color: rgba(255, 0, 157, 0.753);
     cursor: pointer;
+}
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .nav {
+        width: 30vw;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .nav {
+        width: 30vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+    .nav {
+        padding-right: 0%;
+        width: 45vw;
+        height: 5vh;
+    }
 }
