@@ -7,7 +7,7 @@
 .edu-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 11%;
     padding-right: 11%;
     align-items: center;
