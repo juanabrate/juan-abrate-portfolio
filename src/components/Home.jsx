@@ -30,7 +30,7 @@ export default function Home() {
               value: desktop
                 ? 70
                 : laptop
-                ? 35
+                ? 60
                 : portrait
                 ? 30
                 : mobile
@@ -92,7 +92,7 @@ export default function Home() {
                   value: desktop
                     ? 25
                     : laptop
-                    ? 10
+                    ? 20
                     : portrait
                     ? 15
                     : mobile
@@ -155,7 +155,7 @@ export default function Home() {
                   value: desktop
                     ? 25
                     : laptop
-                    ? 10
+                    ? 20
                     : portrait
                     ? 15
                     : mobile
@@ -193,7 +193,7 @@ export default function Home() {
               value: desktop
                 ? 70
                 : laptop
-                ? 35
+                ? 60
                 : portrait
                 ? 30
                 : mobile
