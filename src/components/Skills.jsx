@@ -35,7 +35,7 @@ export default function Skills({queries}) {
             intuitive and dynamic user experiences.
             <br />
             <br />
-            <Link to="reach" smooth={true} duration={400}>
+            <Link to="reach" smooth={true} duration={400} offset={-45}>
               <div className="s-contact">
                 <span style={{ paddingLeft: '0.2%' }}>Contact&nbsp;me!</span>
               </div>
