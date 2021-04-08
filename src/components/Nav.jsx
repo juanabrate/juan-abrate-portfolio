@@ -1,12 +1,12 @@
 import React from "react";
 import './Nav.css';
 import {Link} from 'react-scroll';
-
+import Sticky from 'react-sticky-el';
 
 export default function Nav () {
    
     return (
-        <>
+        <Sticky>
         <div id='nav' style={{display:'flex', alignItems:'center', justifyContent: 'center', backgroundColor: '#282828'}}>
             <div className="nav">
                 
@@ -33,6 +33,6 @@ export default function Nav () {
             </div>            
         </div>
         <div style={{display: 'flex', flexDirection:'row', backgroundColor:'cyan', height:'2px', width:'100%'}}></div>
-        </>
+        </Sticky>
     )
 }

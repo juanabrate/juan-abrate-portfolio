@@ -122,7 +122,7 @@ export default function Home() {
         <div className="title">
           <div className="text">
             <span className="l">
-              Hello, I'm <span className="juan">Juan Abrate</span>
+              Hey, I'm <span className="juan">Juan Abrate</span>
             </span>
             .
             <br />

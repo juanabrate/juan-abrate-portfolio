@@ -4,10 +4,10 @@ import './Final.css'
 
 export default function Final() {
   return (
-    <div className="final" style={{ backgroundColor: '#101010' }}>
+    <div className="final" style={{ backgroundColor: '#101010', overflow: 'hidden', marginBottom: '0px' }}>
       <Particles
         width="100%"
-        height="100vh"
+        height="100%"
         params={{
           particles: {
             number: {

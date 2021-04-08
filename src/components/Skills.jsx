@@ -30,7 +30,7 @@ export default function Skills({queries}) {
         <div className="about">
           <span className="text-about">
             I'm a passionate web developer with experience of building Web
-            applications with JavaScript / Reactjs / Nodejs among other
+            applications with ReactJs | NodeJs | JavaScript among other
             technologies. I have a serious passion for UX/UI design, creating
             intuitive and dynamic user experiences.
             <br />

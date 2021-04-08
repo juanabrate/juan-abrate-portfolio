@@ -17,7 +17,7 @@ export default function Education ({queries}) {
                 <div className="henry-content">
 
                     <h2 style={{lineHeight:'1'}}>Henry Bootcamp</h2>  
-                    {queries.mobile ? <h4 style={{lineHeight:'1'}}>Full Stack Web Developer</h4> : <h3>Full Stack Web Developer</h3>}              
+                    {queries.mobile ? <h7 style={{lineHeight:'1', marginRight: '25%'}}>Full Stack Web Developer</h7> : <h3>Full Stack Web Developer</h3>}              
                                    
                     {/* <h4>August 2020 - December 2020</h4> */}
 
