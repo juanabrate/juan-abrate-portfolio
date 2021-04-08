@@ -1,11 +1,12 @@
 import React from 'react'
 import Particles from 'react-particles-js'
+import './Final.css'
 
 export default function Final() {
   return (
     <div className="final" style={{ backgroundColor: '#101010' }}>
       <Particles
-        width="99vw"
+        width="100%"
         height="100vh"
         params={{
           particles: {
