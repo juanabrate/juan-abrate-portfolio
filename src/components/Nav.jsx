@@ -2,12 +2,13 @@ import React from "react";
 import './Nav.css';
 import {Link} from 'react-scroll';
 import Sticky from 'react-sticky-el';
+import cv from './CV-english.pdf';
 
 export default function Nav () {
    
     return (
         <Sticky>
-        <div id='nav' style={{display:'flex', alignItems:'center', justifyContent: 'center', backgroundColor: '#282828'}}>
+        <div id='nav' style={{display:'flex', alignItems:'center', justifyContent: 'center', backgroundColor: '#202020'}}>
             <div className="nav">
                 
                 <Link to='home' smooth={true} duration={400}>
@@ -20,12 +21,12 @@ export default function Nav () {
                         ABOUT
                     </span >
                 </Link>
-                <Link to="cv" smooth={true} duration={400}>
-                    <span className='buttons'>
+                {/* <Link to="cv" smooth={true} duration={400}> */}
+                    <a className='cv' href={cv} target='_blank' style={{textDecoration:'none'}}>
                         CV
-                    </span>
-                </Link>
-                <Link to="reach" smooth={true} duration={400}>
+                    </a>
+                {/* </Link> */}
+                <Link to="reach" smooth={true} duration={400} offset={-45}>
                     <span className='buttons'>
                         CONTACT ME
                     </span> 
